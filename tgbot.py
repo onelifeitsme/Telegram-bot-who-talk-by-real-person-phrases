@@ -42,7 +42,7 @@ bot = telebot.TeleBot('yourtoken')
 # First command
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
-        bot.send_message(m.chat.id, 'Ну шо ты голова')
+        bot.send_message(m.chat.id, 'PUT STARTING MESSAGE HERE')
 
 # Get messages, answer, and save log
 @bot.message_handler(content_types=["text"])
